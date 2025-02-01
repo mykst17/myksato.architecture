@@ -1,0 +1,86 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+/* Nav bar*/
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #333;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+/* Hero area */
+.hero {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-weight: 300;
+  margin: 265px 0;
+  opacity: 0;
+  animation: fadeIn 4.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Footer */
+footer {
+  color: #333;
+  padding: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  padding-top: 250px;
+}
+
+#social-icon a i {
+  font-size: 22px;
+  color: black;
+  transition: color 0.3s;
+}
+
+#social-icon a i:hover {
+  color: rgb(243, 173, 185);
+}

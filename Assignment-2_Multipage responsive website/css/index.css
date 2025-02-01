@@ -1,0 +1,28 @@
+.hero-content {
+  display: flex;
+  justify-content: center;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Content */
+.wood-image,
+.garden-image {
+  max-width: 35%;
+  height: auto;
+  display: block;
+  padding-top: 150px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content p {
+  text-align: center;
+}
